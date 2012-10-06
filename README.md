@@ -22,3 +22,9 @@ Debugging can be performed in a variety of way, here's some steps to use a visua
 2. `bundle exec rdebug-ide -p7000 vendor/ruby/1.8/gems/rack-1.4.1/bin/rackup`
 3. "Attach Debugger" (in app of choice) @ port 7000
 
+
+### Refs
+
+*  https://github.com/intridea/omniauth/wiki/Sinatra-Example
+*  http://wiki.netbeans.org/RubyDebugging
+
