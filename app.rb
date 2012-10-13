@@ -13,8 +13,9 @@ class MySinatraApp < Sinatra::Base
     HTML
   end
 
-  post '/auth/:name/callback' do
+  get '/auth/allplayers/callback' do
     auth = request.env['omniauth.auth']
     # do whatever you want with the information!
+    "Hello #{auth.info['nickname']}"
   end
 end
