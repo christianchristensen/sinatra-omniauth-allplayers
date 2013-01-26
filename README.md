@@ -1,6 +1,6 @@
-## AllPlayers Omniauth Sinatra example
+## ATT Omniauth Sinatra example
 
-This app is a simple Omniauth Sinatra example linked to AllPlayers.com sign-in.
+This app is a simple Omniauth Sinatra example linked to ATT sign-in.
 
 
 ### Running
@@ -27,4 +27,5 @@ Debugging can be performed in a variety of way, here's some steps to use a visua
 
 *  https://github.com/intridea/omniauth/wiki/Sinatra-Example
 *  http://wiki.netbeans.org/RubyDebugging
+*  https://gist.github.com/1442227 // Sinatra omniauth example with ATT refs.
 

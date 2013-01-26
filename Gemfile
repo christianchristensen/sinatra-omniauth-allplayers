@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem "sinatra", :require => "sinatra/base"
-gem "omniauth-allplayers"
+gem "omniauth-att", :git => "git://github.com/att-innovate/omniauth-att.git"
+gem "json"
 
 group :development do
   gem 'ruby-debug'
