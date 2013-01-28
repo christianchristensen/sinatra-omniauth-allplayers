@@ -1,4 +1,4 @@
-require 'omniauth-att'
+require 'omniauth-att-oauth2'
 
 class MySinatraApp < Sinatra::Base
   configure do
@@ -7,12 +7,12 @@ class MySinatraApp < Sinatra::Base
   end
   use Rack::Session::Cookie
   use OmniAuth::Builder do
-    provider :att, 'a1236b269f7ae1a8482e78fb1e87cf4f', '06065e26e04cf44e'
+    provider :att_oauth2, 'DEAD', 'BEEF'
   end
 
   get '/' do
     erb <<-HTML
-    <a href='/auth/att'>Sign in with AT&T</a>
+    <a href='/auth/att_oauth2'>Sign in with AT&T</a>
 
     HTML
   end

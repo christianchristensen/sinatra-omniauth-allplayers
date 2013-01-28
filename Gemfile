@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem "sinatra", :require => "sinatra/base"
-gem "omniauth-att", :git => "git://github.com/att-innovate/omniauth-att.git"
+gem "omniauth-att-oauth2", :git => "git://github.com/chadmetcalf/omniauth-att-oauth2.git"
 gem "json"
 
 group :development do
